@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/tablet.css">
+    <link rel="stylesheet" href="../css/desktop.css">
     <title>home</title>
 </head>
 <body>
@@ -12,34 +15,51 @@
             <img src="../images/logo_small.png" alt="temple-log">
             <!-- <h4>Temple inn & suit</h4> -->
         </div>
+        <div class="temple-name">
+            <p>Welcome to temple inn & suits</p>
+        </div>
         <div class="icon">
-            <img src="../images/facebook.png" alt="facebook">
-            <img src="../images/twitter.png" alt="twitter">
+           <a href=""> <img src="../images/facebook.png" alt="facebook"></a> 
+           <a href=""><img src="../images/twitter.png" alt="twitter"></a> 
         </div>
     </header>
-    <div class="slide">
-            <span id="heading">Simple automatic slider</span>
-            <div id="slider">  
-            <div class="slides">  
-            <img src="../images/jpg/bountiful-temple-lds-1059079-wallpaper.jpg" alt="temples"  />
-            </div>
-            
-            <div class="slides">  
-            <img src="../images/jpg/hotel-1330846(1).jpg" alt="temples"  />
-            </div>
-            
-            <div class="slides">  
-            <img src="../images/jpg/children-3698745.jpg" alt="temples"  />
-            </div> 
-            
-           
-            
-            <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
-            </div>
+   
+    <div class="slideshow-container">
 
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="../images/jpg/aba-nigeria.jpg" style="width:100%" alt="slide">
+          <div class="text"><h4>Aba Nigeria Temple</h4></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <!-- <picture>
+          <source media="(max-width: 1100px)" srcset="images/medium-view.jpg">
+          <source media="(max-width: 829px)" srcset=" images/small-view.jpg"> -->
+          <img src="../images/jpg/anchorage-temple.jpg" style="width:100%" alt="slide">
+        <!-- </picture> -->
+          <div class="text"><h4>Anchorage Alaska Temple</h4></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="../images/jpg/apia-samoa-temple.jpg" style="width:100%" alt="slide">
+          <div class="text"><h4>Apia Samoa Temple</h4></div>
+        </div>
+        
     </div>
+        <br>
+        
+        <div  class="dots" style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+  
     <nav>
-        <ul>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
             <li class="active"><a href="">Home</a></li>
             <li> <a href="">Temples</a></li>
             <li><a href="">Reservation</a></li>
@@ -65,12 +85,15 @@
         <div class="back-color">
             <h4> Temple activites</h4>
         <section class="temple-activities1">
+            <h4>Marriage</h4>
             <img src="../images/jpg/couple-4615557.jpg" alt="">
         </section>
         <section class="temple-activities2">
+            <h4>Baptism</h4>
             <img src="" alt="">
         </section>
         <section class="temple-activities3">
+            <h4>Prayig</h4>
             <img src="" alt="">
         </section>
         </div>  
@@ -87,14 +110,27 @@
     </main>
 
     <div class="near-footer">
-        <img src="" alt="">
+        <img src="../images/jpg/10-Fort-Lauderdale-Temple-1220613.jpg" alt="">
 
     </div>
     <footer>
+        <div class="name-log">
+            <img src="../images/logo_small.png" alt="log">
 
+        </div>
+        <div class="contacts">
+            <p>Located in: <a href="">HAMPDEN SQUARE</a></p>
+            <p>Adress: 4800 Montgomery Ln #300,<br> Bethesda, MD 20814, United States</p>
+            <p>Phone number:0774998764</p>
+            
+
+        </div>
+        <p>    <b>&copy; 2022 .:|:. Anesu Shangwa .:|:. Temple inn & suits</b></p>
+        <small id="updatetime">Last update:</small>
 
     </footer>
-
+<script src="../js/slide.js"></script>
+<script src="../js/menu.js"></script>
     
 </body>
 </html>

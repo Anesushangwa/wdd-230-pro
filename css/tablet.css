@@ -1,0 +1,6 @@
+ /* Media Query for Tablets Ipads portrait mode */
+ @media (min-width: 490px) and (max-width: 700px){
+    body {
+        background-color: blue;
+    }
+}

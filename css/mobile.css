@@ -1,0 +1,16 @@
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+        
+    }
+
+    .slideshow-container {
+        max-width:100%;
+        position: relative;
+        margin: auto;
+      }
+      .mySlides img{
+       height: auto;
+       
+         }    
+}
