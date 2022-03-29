@@ -3,4 +3,15 @@
     body {
         background-color: blue;
     }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      
+     }
+     .first-grid{
+        
+         grid-column: 2/2;
+         background-color: aqua;
+     }
 }

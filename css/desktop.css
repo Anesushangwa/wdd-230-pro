@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Baskerville:wght@700&family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Baskerville:wght@700&family=Lobster&family=Ubuntu+Condensed&display=swap');
     body {
      margin: 0;
      padding: 0;
+     font-family: 'Ubuntu', sans-serif;
     }
     /* header style */
     header{
@@ -14,7 +16,7 @@
     header, .log, .icon {
         display: flex;
         justify-content: space-between;
-        padding: 5px;
+        padding: 0 5px;
       
         
     }
@@ -64,13 +66,15 @@ height: 500px;
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: black;
+  font-size: 19px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  background-color: #fff9;
+  bottom: 100px;
   width: 100%;
   text-align: center;
+  width: 50%;
 }
 
 /* Number text (1/3 etc) */
@@ -100,7 +104,7 @@ height: 500px;
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @keyframes fade {
@@ -115,17 +119,22 @@ height: 500px;
 /* nav style */
 
 nav {
-    background-color: black;
+    background: linear-gradient(90deg, rgba(0,0,0,6) 50%, rgba(204,204,204,1) 70%);
     color: white;
+    position: sticky;
+    padding: 5px;
+    top: 0;
+    
 }
 
 nav ul {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-content: space-around;
     margin: 0;
     padding: 0;
+   
 }
 
 nav ul li:first-child {
@@ -168,3 +177,102 @@ nav ul li a:hover {
     }
 }
     
+/* end nav style */
+
+
+/* main style */
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-gap: 10px;
+    padding-top: 10px;
+}
+
+
+.first-grid{
+    background-color: #ccc;
+    grid-column: 1/3;
+    grid-row: 1;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    padding:0 10px;
+}
+
+.sec-grid{
+    grid-column: 3/3;
+    grid-row: 1;
+    text-align: center;
+    background: #007bd4;
+    background: -webkit-linear-gradient(to right, #007bd4, #1fcbff, #e8faff);
+    background: linear-gradient(to right, #007bd4, #1fcbff, #e8faff);
+}
+   
+ /* temple actives */
+
+.temple-activities1,
+.temple-activities2,
+.temple-activities3{
+    background-color: #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    
+    
+
+}
+
+
+ .h4 { 
+    text-align: center;
+
+}
+ p{
+padding: 5px;
+}
+/* 
+footer */
+
+
+ .near-footer{
+   
+    width: 100%;
+    color: white;
+    font: bold 50px monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: linear-gradient(to top, #fff9, #0009), url(../images/jpg/10-Fort-Lauderdale-Temple-1220613.jpg) no-repeat top center;
+ }
+
+
+ footer{
+     display: grid;
+     grid-template-columns:  1fr 1fr 1fr;
+     grid-gap: 20px;
+     background-color: #ccc;
+     padding: 3px;
+    
+ }
+
+ .name-log img{
+     width: 300px;
+     margin: 0 20px;
+ }
+
+ .name-log{
+    grid-column: 1;
+ }
+ .contacts{
+     grid-column: 2/3;
+ }
+
+ .copy{
+    margin: 0 20px;
+ }
+
+ .map{
+    width: 100%;
+ }
