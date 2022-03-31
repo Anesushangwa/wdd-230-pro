@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Baskerville:wght@700&family=Ubuntu+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Baskerville:wght@700&family=Lobster&family=Ubuntu+Condensed&display=swap');
-    body {
-     margin: 0;
-     padding: 0;
-     font-family: 'Ubuntu', sans-serif;
+
+
+ 
+
+
+
+
+
+
+
+
+
+ @media only screen and (min-width: 35em) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif; 
     }
-    /* header style */
+
+
+
     header{
         background: linear-gradient(90deg, rgba(239,238,246,1) 0%, rgba(184,184,246,1) 35%, rgba(172,233,245,1) 100%);
-        width: 100%;
+        
+       
        
      
     }
@@ -17,6 +33,7 @@
         display: flex;
         justify-content: space-between;
         padding: 0 5px;
+       
       
         
     }
@@ -72,9 +89,11 @@ height: 500px;
   position: absolute;
   background-color: #fff9;
   bottom: 100px;
-  width: 100%;
-  text-align: center;
   width: 50%;
+  text-align: center;
+  margin: 0 20px;
+ 
+
 }
 
 /* Number text (1/3 etc) */
@@ -124,7 +143,6 @@ nav {
     position: sticky;
     padding: 5px;
     top: 0;
-    
 }
 
 nav ul {
@@ -162,9 +180,11 @@ nav ul li a:hover {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 2.5em) {
     nav ul {
         flex-direction: row;
+
+        
     }
     
     nav ul li:first-child {
@@ -178,124 +198,89 @@ nav ul li a:hover {
 }
     
 /* end nav style */
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 960px;
+        margin: 0 auto;
+        grid-gap: 20px;
+       margin: 20px auto;
+    }
 
+    .first-grid{
+     
+        grid-column: 1/3;
+    }
 
-/* main style */
+    .sec-grid{
+       
+        grid-column: 3/4;
+    }
 
-main{
-    max-width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-gap: 10px;
-    padding-top: 10px;
-}
+    .first-grid { 
+        background-color: #ccc;
+        
+        font-family: 'Space Mono', monospace;
+        font-size: 20px;
+       padding: 2px;
+     
+    }
+    
+    .sec-grid{
+       
+        text-align: center;
+        background: #007bd4;
+        background: -webkit-linear-gradient(to right, #007bd4, #1fcbff, #e8faff);
+        background: linear-gradient(to right, #007bd4, #1fcbff, #e8faff);
+        
+    }
 
-
-.first-grid{
-    background-color: #ccc;
-    grid-column: 1/4;
-    grid-row: 1;
-    font-family: 'Space Mono', monospace;
-    font-size: 20px;
-    padding:0 10px;
-}
-
-.sec-grid{
-    grid-column: 1/4;
-    grid-row: 2/2;
-    text-align: center;
-    background: #007bd4;
-    background: -webkit-linear-gradient(to right, #007bd4, #1fcbff, #e8faff);
-    background: linear-gradient(to right, #007bd4, #1fcbff, #e8faff);
-}
-
-
-.temple-activities1{
-    grid-column: 1/4;
-    grid-row: 3/3;
-    background-color: #007bd4;
-
-}
-
-.temple-activities2{
-    grid-column: 1/4;
-    grid-row: 4/4;
-
-
-}
-
-.temple-activities3{
-    grid-column: 1/4;
-    grid-row: 5/5;
-}
-   
- /* temple actives */
-
-.temple-activities1,
+    .temple-activities1,
 .temple-activities2,
 .temple-activities3{
     background-color: #ccc;
     border-radius: 3px;
     overflow: hidden;
+
     
     
 
 }
 
-.last1{
-    grid-column: 1/4;
-    grid-row: 6/6; 
+.temple-activities1 h4,
+.temple-activities2 h4,
+.temple-activities3 h4{
+text-align: center;
 }
 
-.last2{
-    grid-column: 1/4;
-    grid-row: 7/7; 
+p{
+    padding: 0 5px;
+}
     
-}
-
-.last3{
-    grid-column: 1/4;
-    grid-row: 8/8; 
-}
 
 .last1,
 .last2,
 .last3{
-    background-color: #717171;
-}
-
-
- .h4 { 
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     text-align: center;
-
-}
- p{
-padding: 5px;
-}
-/* 
-footer */
-
-
- .near-footer{
+    border-radius: 2px;
    
-    width: 100%;
-    color: white;
-    font: bold 50px monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    background: linear-gradient(to top, #fff9, #0009), url(../images/jpg/10-Fort-Lauderdale-Temple-1220613.jpg) no-repeat top center;
- }
+   
+}
 
 
  footer{
-     display: grid;
-     grid-template-columns:  1fr 1fr 1fr;
+    
      grid-gap: 20px;
-     background-color: #ccc;
-     padding: 3px;
+     text-align: center;
+   background-color: #ccc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+ 
+    
+
     
  }
 
@@ -315,7 +300,6 @@ footer */
     margin: 0 20px;
  }
 
- .map{
-    width: 100%;
- }
 
+  
+}
