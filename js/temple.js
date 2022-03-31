@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://anesushangwa.github.io/wdd-230-pro/json/temple.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -22,16 +22,24 @@ function displayTemple(temple) {
    const p1 = document.createElement('p');
    const h2 = document.createElement('h2');
    const p2 = document.createElement('p');
+   const p3 = document.createElement('P');
+   const p4 = document.createElement('p');
    const image = document.createElement('img');
 
-    h2.textContent = `${temple.name} ${temple.lastname}`;
+    h2.textContent = `${temple.name} `;
     card.appendChild(h2);
     
-    p1.textContent = `Date of Birth: ${temple.birthdate}`;
+    p1.textContent = `Address: ${temple.adrress}`;
     card.appendChild(p1);
 
-    p2.textContent = `Place of birth: ${temple.birthplace}`;
+    p2.textContent = `Telphone: ${temple.telphone}`;
     card.appendChild(p2);
+  
+    p3.textContent = `services: ${temple.services}`;
+    card.appendChild(p3);
+
+    p4.textContent = `Additional: ${temple.additional}`;
+    card.appendChild(p4);
   
     image.src = temple.imageurl;
     image.setAttribute('alt', temple.order);
