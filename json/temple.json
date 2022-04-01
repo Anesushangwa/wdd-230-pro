@@ -1,14 +1,34 @@
 {
     "temples": [
       {
-        "name": "Asunción Paraguay Temple",
-        "address": "Avda Brasilia Esquina Avda España Asunción Paraguay",
-        "telphone": "(595) 21-216-9200",
-        "email": "Asunción@gmail.com",
-        "services": "No clothing rental available No cafeteria available Patron housing availableDistribution center nearby ",
-        "clouser": "2022 Saturday, 2 April 2022 - Sunday, 3 April 2022 Monday, 18 April 2022 - Saturday, 30 April 2022 Saturday, 1 October 2022 - Sunday, 2 October 2022Monday, 17 October 2022 - Monday, 26 December 2022Saturday, 31 December 2022 - Sunday, 1 January 2023",
+        "name": "Kona Hawaii Temple",
+        "address": "75-230 Kalani St Kailua-Kona HI 96740-1833 United States",
+        "telphone": "(1) 808-331-8504",
+        "email": "hawaiitemple@gmail.com",
+        "services": "No clothing rental available No cafeteria availableNo patron housing available No distribution center nearby ",
+        "clouser": "2022  Saturday, 2 April 2022 - Monday, 30 May 2022Saturday, 1 October 2022 - Monday, 17 October 2022Wednesday, 23 November 2022 Thursday, 24 November 2022 Friday, 23 December 2022 Saturday, 24 December 2022 Friday, 30 December 2022Saturday, 31 December 2022",
         "additional": "Family Ordinance Cards Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
-        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/asuncion-paraguay/800x500/1-68dfd881f93cb86e99828aa547eac056189c55ff.jpeg"
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kona-hawaii/800x500/kona-hawaii-mormon-temple-941461-wallpaper.jpg"
+      },
+      {
+        "name": "Kyiv Ukraine Temple",
+        "address": "1 Yabluneva Street v. Sofiivs’ka Borshchagivka Kyevo-Sviatoshyns’ky Rayon, Kyivs’ka Oblast, 08131, Ukraine,",
+        "telphone": "(380) 44-371-4088",
+        "email": "kyivukraine@gmail.com",
+        "services": "No clothing rental available No cafeteria available Patron housing availableDistribution center nearby ",
+        "clouser": "Thursday, 24 February 2022 - Sunday, 24 April 2022 ,Monday, 19 September 2022 - Monday, 28 November 2022",
+        "additional": "Family Ordinance Cards Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kyiv-ukraine/800x500/kyiv-ukraine-lds-temple-771090-wallpaper.jpg"
+      },
+      {
+        "name": "Las Vegas Nevada Temple",
+        "address": "827 Temple View Dr Las Vegas NV 89110-2920United States",
+        "telphone": "(1) 702-452-5011",
+        "email": "vegasnevada@gmail.com",
+        "services": "No clothing rental available No cafeteria available Patron housing availableDistribution center nearby ",
+        "clouser": "2022 Saturday, 2 April 2022 - Sunday, 3 April 2022 Monday, 18 April 2022 - Saturday, 30 April 2022 Saturday, 1 October 2022 - Sunday, 2 October 2022 Monday, 17 October 2022 - Monday, 26 December 2022 Saturday, 31 December 2022 - Sunday, 1 January 2023",
+        "additional": "Family Ordinance Cards Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/las-vegas-nevada/320x200/las-vegas-temple-lds-758757-wallpaper.jpg"
       },
       {
         "name": "Asunción Paraguay Temple",
@@ -16,27 +36,7 @@
         "telphone": "(595) 21-216-9200",
         "email": "Asunción@gmail.com",
         "services": "No clothing rental available No cafeteria available Patron housing availableDistribution center nearby ",
-        "clouser": "2022 Saturday, 2 April 2022 - Sunday, 3 April 2022 Monday, 18 April 2022 - Saturday, 30 April 2022 Saturday, 1 October 2022 - Sunday, 2 October 2022Monday, 17 October 2022 - Monday, 26 December 2022Saturday, 31 December 2022 - Sunday, 1 January 2023",
-        "additional": "Family Ordinance Cards Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
-        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/asuncion-paraguay/800x500/1-68dfd881f93cb86e99828aa547eac056189c55ff.jpeg"
-      },
-      {
-        "name": "Asunción Paraguay Temple",
-        "address": "Avda Brasilia Esquina Avda España Asunción Paraguay",
-        "telphone": "(595) 21-216-9200",
-        "email": "Asunción@gmail.com",
-        "services": "No clothing rental available No cafeteria available Patron housing availableDistribution center nearby ",
-        "clouser": "2022 Saturday, 2 April 2022 - Sunday, 3 April 2022 Monday, 18 April 2022 - Saturday, 30 April 2022 Saturday, 1 October 2022 - Sunday, 2 October 2022Monday, 17 October 2022 - Monday, 26 December 2022Saturday, 31 December 2022 - Sunday, 1 January 2023",
-        "additional": "Family Ordinance Cards Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
-        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/asuncion-paraguay/800x500/1-68dfd881f93cb86e99828aa547eac056189c55ff.jpeg"
-      },
-      {
-        "name": "Asunción Paraguay Temple",
-        "address": "Avda Brasilia Esquina Avda España Asunción Paraguay",
-        "telphone": "(595) 21-216-9200",
-        "email": "Asunción@gmail.com",
-        "services": "No clothing rental available No cafeteria available Patron housing availableDistribution center nearby ",
-        "clouser": "2022 Saturday, 2 April 2022 - Sunday, 3 April 2022 Monday, 18 April 2022 - Saturday, 30 April 2022 Saturday, 1 October 2022 - Sunday, 2 October 2022Monday, 17 October 2022 - Monday, 26 December 2022Saturday, 31 December 2022 - Sunday, 1 January 2023",
+        "clouser": "2022 Saturday, 2 April 2022 - Sunday, 3 April 2022 Monday, 18 April 2022 - Saturday, 30 April 2022 Saturday, 1 October 2022 - Sunday, 2 October 2022 Monday, 17 October 2022 - Monday, 26 December 2022Saturday, 31 December 2022 - Sunday, 1 January 2023",
         "additional": "Family Ordinance Cards Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/asuncion-paraguay/800x500/1-68dfd881f93cb86e99828aa547eac056189c55ff.jpeg"
       }
