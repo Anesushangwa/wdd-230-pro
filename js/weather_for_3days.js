@@ -1,4 +1,4 @@
-const aplurl = "https://api.openweathermap.org/data/2.5/onecall?lat=40.016&lon=-81.073&exclude=hourly&appid=761705f2fff2232362c92545f641006c";
+const aplurl = "https://api.openweathermap.org/data/2.5/onecall?lat=40.016&lon=-81.073&exclude=hourly&appid=c0dd6f3922423f20d44934522c279731";
 fetch(aplurl)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -31,7 +31,7 @@ else {
   // second day
 
 
-  const pplurl = "https://api.openweathermap.org/data/2.5/onecall?lat=40.016&lon=-81.073&exclude=hourly&appid=761705f2fff2232362c92545f641006c";
+  const pplurl = "https://api.openweathermap.org/data/2.5/onecall?lat=40.016&lon=-81.073&exclude=hourly&appid=dc0ed19682874c1a64bce64a51e20a3a";
 fetch(pplurl)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -64,7 +64,7 @@ else {
 // Third day
 
 
-const splurl = "https://api.openweathermap.org/data/2.5/onecall?lat=40.016&lon=-81.073&exclude=hourly&appid=761705f2fff2232362c92545f641006c";
+const splurl = "https://api.openweathermap.org/data/2.5/onecall?lat=40.016&lon=-81.073&exclude=hourly&appid=cb04d0f46fa0654603221b6dcf779813";
 fetch(splurl)
   .then((response) => response.json())
   .then((jsObject) => {

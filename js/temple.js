@@ -17,13 +17,14 @@ fetch(requestURL)
 
 
 function displayTemple(temple) {
-    // date of birth , birth place and temple images
+    
    const card = document.createElement('section');
    const p1 = document.createElement('p');
    const h2 = document.createElement('h2');
    const p2 = document.createElement('p');
    const p3 = document.createElement('P');
    const p4 = document.createElement('p');
+   const p5 = document.createElement('p');
    const image = document.createElement('img');
 
     h2.textContent = `${temple.name} `;
@@ -34,6 +35,8 @@ function displayTemple(temple) {
 
     p2.textContent = `Telphone: ${temple.telphone}`;
     card.appendChild(p2);
+    p5.textContent = `Email: ${temple.email}`;
+    card.appendChild(p5);
   
     p3.textContent = `services: ${temple.services}`;
     card.appendChild(p3);
