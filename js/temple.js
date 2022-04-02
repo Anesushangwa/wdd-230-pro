@@ -19,14 +19,24 @@ fetch(requestURL)
 function displayTemple(temple) {
     
    const card = document.createElement('section');
+   const image = document.createElement('img');
    const p1 = document.createElement('p');
    const h2 = document.createElement('h2');
    const p2 = document.createElement('p');
    const p3 = document.createElement('P');
    const p4 = document.createElement('p');
    const p5 = document.createElement('p');
-   const image = document.createElement('img');
-
+   const btn = document.createElement('button')
+   
+   image.src = temple.imageurl;
+   image.setAttribute('alt', temple.order);
+   card.appendChild(image);
+  //  btn.textContent = `Additional: ${temple.additional}`;
+   
+    btn.innerText = 'like';
+    btn.setAttribute("class", "like");
+    card.appendChild(btn);
+  
     h2.textContent = `${temple.name} `;
     card.appendChild(h2);
     
@@ -44,9 +54,9 @@ function displayTemple(temple) {
     p4.textContent = `Additional: ${temple.additional}`;
     card.appendChild(p4);
   
-    image.src = temple.imageurl;
-    image.setAttribute('alt', temple.order);
-    card.appendChild(image);
+    // image.src = temple.imageurl;
+    // image.setAttribute('alt', temple.order);
+    // card.appendChild(image);
   
   
     document.querySelector('div.cards').appendChild(card);
