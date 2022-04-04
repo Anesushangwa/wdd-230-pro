@@ -21,6 +21,7 @@
 
 
 
+
     header{
         background: linear-gradient(90deg, rgba(239,238,246,1) 0%, rgba(184,184,246,1) 35%, rgba(172,233,245,1) 100%);
         
@@ -28,7 +29,22 @@
        
      
     }
+    .colors{
+      background: rgb(0,0,6);
+      background: linear-gradient(28deg, rgba(0,0,6,1) 4%, rgba(204,204,204,1) 100%);
+      height: 300px;
+      width: 100%;
+      margin-top: -21px;
+    
+    }
+     h1{
+      color:white;
+     
 
+ 
+  
+     
+    }
     header, .log, .icon {
         display: flex;
         justify-content: space-between;
@@ -41,9 +57,10 @@
         max-width: 100%;
     }
 
-     .log img{
-        width: 100px;
-        
+     .log  {
+     width: 120px;
+        background-color: #ccc;
+       
   
 
     }
@@ -218,7 +235,7 @@ nav ul li a:hover {
     }
    
 
-    section{
+     section {
         width: 100%;
         height: auto;
         
@@ -232,16 +249,20 @@ nav ul li a:hover {
         font-family: 'Ubuntu Condensed', sans-serif;
         overflow: hidden;
         font-size: 16px;
-    }
+    } 
 
     .first-grid{
      
         grid-column: 1/3;
+        border-radius: 2px;
+        box-shadow:2px 2px 9px 2px  #ccc;
     }
 
     .sec-grid{
        
         grid-column: 3/4;
+        border-radius: 2px;
+        box-shadow:2px 2px 9px 2px  #ccc;
     }
 
     .first-grid { 
@@ -265,9 +286,15 @@ nav ul li a:hover {
     .temple-activities1,
 .temple-activities2,
 .temple-activities3{
-    background-color: #ccc;
-    border-radius: 3px;
-    overflow: hidden;
+  box-shadow:2px 2px 9px 2px  #ccc;
+  border-radius: 7px 7px 2px 2px ;
+  background: #a5a7a8;
+  background: -webkit-linear-gradient(to right, #a5a7a8, #e2e1e3, #fcf8f2);
+  background: linear-gradient(to right, #a5a7a8, #e2e1e3, #fcf8f2); background-color: #f8a28f; 
+  
+  font-family: 'Ubuntu Condensed', sans-serif;
+  overflow: hidden;
+  font-size: 16px;
 
     
     
@@ -292,6 +319,8 @@ p{
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     text-align: center;
     border-radius: 2px;
+    box-shadow:2px 2px 9px 2px  #ccc;
+
    
    
 }
@@ -328,5 +357,86 @@ p{
  }
 
 
+ /* reservation */
+ div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display:inline;
+    float: left;
+  
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+
+
+  form{
+    margin: 0 300px;
+    background: #0047AB;
+    padding: 20px;
+    border-radius: 5px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: white;
+
+   
+  }
+ /* services */
+
+ .services1{
+   grid-column: 1/2;
+  
+ }
+
+ .centering{
+  text-align: center;
+
+}
   
 }
