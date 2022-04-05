@@ -1,5 +1,5 @@
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
     /* nav style */
 
   
@@ -8,6 +8,9 @@
        display: grid;
        grid-template-columns: 1fr 1fr ;
        margin: 20px auto;
+   }
+   section{
+     margin: 0 20px;
    }
 
    .first-grid{
@@ -57,15 +60,16 @@ margin: 0 20px;
 
 .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr  ;
     max-width: 960px;
-    margin: 0 auto;
+    margin: 20px 0;
     grid-gap: 20px;
-   margin: 20px auto;
+
+
 
 }
 
-section{
+/* section{
 
  
     margin: 0 20px;
@@ -79,7 +83,7 @@ section{
     font-family: 'Ubuntu Condensed', sans-serif;
     overflow: hidden;
     font-size: 16px;
-}
+} */
 
 /* reservation */
 div.elem-group {
@@ -146,7 +150,9 @@ div.elem-group {
 background: linear-gradient(90deg, rgba(34,193,195,0.9150866390614028) 30%, rgba(0,191,255,0.6510416952411779) 67%);
    
   }
-
+  .services {
+    background-color: red;
+  }
 
   .colors{
     background: rgb(0,0,6);
@@ -163,7 +169,46 @@ background: linear-gradient(90deg, rgba(34,193,195,0.9150866390614028) 30%, rgba
     text-align: center;
   
   }
+  
 
+  .services {
+    
+        
+    box-shadow:2px 2px 9px 2px  #ccc;
+    border-radius: 7px 7px 2px 2px ;
+    background: #6A5ACD;
+   
+    
+    font-family: 'Ubuntu Condensed', sans-serif;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.services3{
+  grid-column:1/4 ;
+}
+
+.gridss{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.services p{
+  padding: 20px;
+}
+
+.button {
+  background-color: #152715;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 70px;
+  cursor: pointer;
+}
 }
 
 

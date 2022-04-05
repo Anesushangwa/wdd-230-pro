@@ -1,4 +1,4 @@
-@media (max-width: 700px)  { 
+@media (max-width: 800px)  { 
   
     body{
         margin: 0;
@@ -70,6 +70,9 @@ height: 500px;
 .temple-name{
   display:none ;
 
+}
+.services {
+  background-color: red;
 }
 
 /* Caption text */
@@ -306,7 +309,7 @@ padding: 7px;
 
 .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr  ;
     max-width: 960px;
     margin: 0 auto;
     grid-gap: 20px;
@@ -415,5 +418,50 @@ div.elem-group {
    
   }
 
+  
+  .services {
+    
+        
+    box-shadow:2px 2px 9px 2px  #ccc;
+    border-radius: 7px 7px 2px 2px ;
+    background:#6A5ACD ;
+    
+    
+    font-family: 'Ubuntu Condensed', sans-serif;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.gridss{
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+.services2{
+  grid-column: 1/4;
+}
+.services1{
+  grid-column: 1/4;
+}
+
+.services p{
+  padding: 20px;
+}
+
+
+.button {
+  background-color: #152715;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 70px;
+  cursor: pointer;
+}
 
 }
+
+

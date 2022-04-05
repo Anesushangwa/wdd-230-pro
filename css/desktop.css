@@ -233,9 +233,22 @@ nav ul li a:hover {
        margin: 20px auto;
 
     }
+
+     .services {
+    
+        
+        box-shadow:2px 2px 9px 2px  #ccc;
+        border-radius: 7px 7px 2px 2px ;
+        background: #6A5ACD;
+      
+        
+        font-family: 'Ubuntu Condensed', sans-serif;
+        overflow: hidden;
+        font-size: 16px;
+    }
    
 
-     section {
+     /* section   {
         width: 100%;
         height: auto;
         
@@ -249,8 +262,8 @@ nav ul li a:hover {
         font-family: 'Ubuntu Condensed', sans-serif;
         overflow: hidden;
         font-size: 16px;
-    } 
-
+    }  */
+  
     .first-grid{
      
         grid-column: 1/3;
@@ -438,5 +451,24 @@ p{
   text-align: center;
 
 }
+.button {
+  background-color: #152715;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 70px;
+  cursor: pointer;
+ 
+}
+
+.wedding img{
+  width: 100px;
+  float:  left;
+}
+
   
 }
