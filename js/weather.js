@@ -1,4 +1,4 @@
-const Aplurl = "https://api.openweathermap.org/data/2.5/onecall?lat=40.016&lon=-81.073&exclude=hourly&appid=c0dd6f3922423f20d44934522c279731";
+const Aplurl = "https://api.openweathermap.org/data/2.5/onecall?lat=40.016&lon=-81.073&exclude=hourly&appid=6359c49dc3f6452175a11a317071ce5d";
 fetch(Aplurl)
   .then((response) => response.json())
   .then((jsObject) => {
