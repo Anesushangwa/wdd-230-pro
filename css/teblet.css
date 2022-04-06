@@ -209,6 +209,46 @@ background: linear-gradient(90deg, rgba(34,193,195,0.9150866390614028) 30%, rgba
   margin: 30px 70px;
   cursor: pointer;
 }
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width:  960px;
+  margin:  20px auto;
+  grid-gap: 10px;
+   
+    
+  }
+  
+  .wedding {
+    background-color: #ccc;
+   
+  }
+  .wedding h4{
+    text-align: center;
+  }
+  
+  .missionary{
+    background-color: #ccc;
+  }
+  
+  .missionary h4{
+    text-align: center;
+    
+  }
+  .missionary, .wedding , h5 p{
+    padding: 5px;
+  }
+  
+  .form-group{
+    border: none;
+  }
+  .colors h1 {
+    margin: 20px;
+   padding: 20px;
+   font-style: italic;
+    
+  }
 }
 
 

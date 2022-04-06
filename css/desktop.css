@@ -34,7 +34,7 @@
       background: linear-gradient(28deg, rgba(0,0,6,1) 4%, rgba(204,204,204,1) 100%);
       height: 300px;
       width: 100%;
-      margin-top: -21px;
+      margin-top: -20px;
     
     }
      h1{
@@ -247,22 +247,20 @@ nav ul li a:hover {
         font-size: 16px;
     }
    
-
-     /* section   {
-        width: 100%;
-        height: auto;
-        
-        margin: 0px 0px 20px;
-        box-shadow:2px 2px 9px 2px  #ccc;
-        border-radius: 7px 7px 2px 2px ;
-        background: #a5a7a8;
-        background: -webkit-linear-gradient(to right, #a5a7a8, #e2e1e3, #fcf8f2);
-        background: linear-gradient(to right, #a5a7a8, #e2e1e3, #fcf8f2); background-color: #f8a28f; 
-        
-        font-family: 'Ubuntu Condensed', sans-serif;
-        overflow: hidden;
-        font-size: 16px;
-    }  */
+    section{
+     
+      
+     margin: auto 20px;
+      box-shadow:2px 2px 9px 2px  #ccc;
+      border-radius: 7px 7px 2px 2px ;
+      background: #a5a7a8;
+      background: -webkit-linear-gradient(to right, #a5a7a8, #e2e1e3, #fcf8f2);
+      background: linear-gradient(to right, #a5a7a8, #e2e1e3, #fcf8f2); background-color: #f8a28f; 
+      
+      font-family: 'Ubuntu Condensed', sans-serif;
+      overflow: hidden;
+      font-size: 16px;
+  } 
   
     .first-grid{
      
@@ -465,10 +463,42 @@ p{
  
 }
 
-.wedding img{
-  width: 100px;
-  float:  left;
-}
-
+.grid2 {
+display: grid;
+grid-template-columns: 1fr;
+max-width:  960px;
+margin:  20px auto;
+grid-gap: 10px;
+ 
   
 }
+
+.wedding {
+  background-color: #ccc;
+ 
+}
+.wedding h4{
+  text-align: center;
+}
+
+.missionary{
+  background-color: #ccc;
+}
+
+.missionary h4{
+  text-align: center;
+  
+}
+.missionary, .wedding , h5 p{
+  padding: 5px;
+}
+.form-group{
+  border: none;
+}
+.colors h1 {
+  margin: 20px;
+ padding: 20px;
+ font-style: italic;
+  
+}
+ }

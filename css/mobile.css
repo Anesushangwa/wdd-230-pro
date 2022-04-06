@@ -317,10 +317,9 @@ padding: 7px;
    margin: 20px auto;
 
 }
-/* 
-section{
-    width: 100%;
-    height: auto;
+
+.cards section{
+    
     
     margin: 0px 20px;
     box-shadow:2px 2px 9px 2px  #ccc;
@@ -330,11 +329,11 @@ section{
     background: linear-gradient(to right, #a5a7a8, #e2e1e3, #fcf8f2); background-color: #f8a28f; 
     
     font-family: 'Ubuntu Condensed', sans-serif;
-    overflow: hidden;
+    
     font-size: 16px;
-} */
+} 
 
-/* reservation */
+
 div.elem-group {
     margin: 20px 0;
   }
@@ -418,7 +417,12 @@ div.elem-group {
 
    
   }
-
+.cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  margin:  20px auto;
+}
   
   .services {
     
@@ -463,6 +467,48 @@ div.elem-group {
   cursor: pointer;
 }
 
-}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width:  960px;
+  margin:  20px auto;
+  grid-gap: 10px;
+   
+    
+  }
+  
+  .wedding {
+    background-color: #ccc;
+    margin: 0 20px;
+   
+  }
+  .wedding h4{
+    text-align: center;
+  }
+  
+  .missionary{
+    background-color: #ccc;
+    margin: 0 20px;
+  }
+  .form-group{
+    border: none;
+  }
+  .missionary h4{
+    text-align: center;
+    
+  }
+  .missionary, .wedding , h5 p{
+    padding: 5px;
+  }
+
+  .colors h1 {
+    margin: 20px;
+   padding: 20px;
+  font-style: italic;
+    
+  }
+  
+   }
+
 
 

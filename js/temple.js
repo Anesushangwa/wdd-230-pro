@@ -35,7 +35,9 @@ function displayTemple(temple) {
    
     btn.innerText = 'like';
     btn.setAttribute("class", "like");
+       btn.setAttribute('onclick', "like(this)");
     card.appendChild(btn);
+ 
   
     h2.textContent = `${temple.name} `;
     card.appendChild(h2);
@@ -60,5 +62,13 @@ function displayTemple(temple) {
   
   
     document.querySelector('div.cards').appendChild(card);
-  
+
+
+
+
+
   }
+
+
+
+ 
